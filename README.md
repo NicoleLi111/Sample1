@@ -2,7 +2,7 @@
 
 #1a) making expenses records with format siglespace
 records=[]
-with open('C:/Users/16268/Desktop/Intro to Python/Homework/HW2/expenses.txt', 'rt',
+with open('C:/Users/16268/Desktop/Python/Assignment/HW2/expenses.txt', 'rt',
           encoding = 'utf-8') as fin:
     for line in fin:
         line = line[:-1]
@@ -13,7 +13,7 @@ with open('C:/Users/16268/Desktop/Intro to Python/Homework/HW2/expenses.txt', 'r
 #1b) making list of lists
     print('\n')
 records2=[]
-with open('C:/Users/16268/Desktop/Intro to Python/Homework/HW2/expenses.txt', 'rt',
+with open('C:/Users/16268/Desktop/Python/Assignment/HW2/expenses.txt', 'rt',
           encoding = 'utf-8') as fin:
     for line in fin:
         line=line[:-1]
@@ -103,7 +103,7 @@ def exp_report(x):
     for k in category_totals.keys():
         print('{:>13} total: {:>8.2f}'.format(k, category_totals[k]))
     
-exp_report('C:/Users/16268/Desktop/Intro to Python/Homework/HW 4/expenses.txt')
+exp_report('C:/Users/16268/Desktop/Python/Assignment/HW 4/expenses.txt')
     
     
         
